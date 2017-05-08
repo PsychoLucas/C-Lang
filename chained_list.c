@@ -14,7 +14,7 @@ void init(celula *list) {
   list->prox = NULL;
 }
 
-// Verifica se a lista está vazia
+// Verify if the lists if empty.
 int is_empty(celula *list) {
   return list->prox == NULL ? 1 : 0;
 }
@@ -23,14 +23,14 @@ int is_empty(celula *list) {
 int list_size() {
   int size;
 
-  printf("Type list's size:");
+  printf("Type list's size: ");
   scanf("%d\n", &size);
 
   return size;
 }
 
-// Add a element at list's beginning.
-/*void add_element(celula *list) {
+// Add a element at the beginning of the list.
+void add_element_beginning(celula *list) {
   celula *new_element = malloc(sizeof(celula));
   new_element->prox = NULL;
 
@@ -40,10 +40,10 @@ int list_size() {
   new_element->prox = list->prox;
   list->prox = new_element;
 
-}*/
+}
 
-// Add a element at the list's end.
-void add_element(celula *list) {
+// Add a element at the end of the list.
+void add_element_end(celula *list) {
   celula *new_element = malloc(sizeof(celula));
   new_element->prox = NULL;
 
@@ -92,7 +92,7 @@ void menu(celula *list) {
 
     switch (option) {
       case 1:
-        add_element(list);
+        add_element_end(list);
         break;
       case 2:
         if(is_empty(list))
@@ -112,7 +112,7 @@ void menu(celula *list) {
         printf("Invalid Option\n");
         break;
     }
-  } while(option < 0 || option > 4);
+  } while(option != 0);
 
 }
 
