@@ -6,12 +6,16 @@ Todas as mudanças realizadas no projeto serão documentadas neste arquivo.
 
 ## Releases:
 
-### 08/05/2017
+### 2017/05/12
+### added
+- Binary Tree Code Example
+
+### 2017/05/08
 ### added
 - Hash Code [unfinished]
 - Insert Sorting [Unfinished]
 
-### 04/22/2017
+### 2017/04/22
 ### added
 - Quick Sorting
 - Basic Sorting
