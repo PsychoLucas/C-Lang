@@ -6,9 +6,10 @@ Todas as mudanças realizadas no projeto serão documentadas neste arquivo.
 
 ## Releases:
 
-### 2017/05/12
+### 2017/06/15
 ### added
-- Binary Tree Code Example
+- Data Structure II Academic Work/Trabalho de Estrutura de Dados II [Developing]
+- Binary Tree Code Example [Unfinished]
 
 ### 2017/05/08
 ### added

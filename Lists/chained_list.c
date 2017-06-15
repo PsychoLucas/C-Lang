@@ -24,8 +24,8 @@ int list_size() {
   int size;
 
   printf("Type list's size: ");
-  scanf("%d\n", &size);
-
+  scanf("%d", &size);
+  
   return size;
 }
 

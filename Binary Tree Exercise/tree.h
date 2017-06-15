@@ -14,10 +14,10 @@ typedef struct NODE_TAG {
 
 typedef POINT TREE;
 
-void create(TREE *);
-int search(ITEM*, POINT*);
-int insert(ITEM, POINT*);
-int remove(ITEM, POINT*);
+void create_tree(TREE *);
+int search_element(ITEM*, POINT*);
+int insert_element(ITEM, POINT*);
+int remove_element(ITEM, POINT*);
 void go_through_in(POINT p);
 void go_through_pre(POINT p);
 void go_through_pos(POINT p);
